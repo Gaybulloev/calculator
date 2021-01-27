@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@color/black_app">
+
+    <TextView
+        android:id="@+id/inPuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_app"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:text=""
+        android:gravity="end"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/outPuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_app"
+        android:textColor="@color/white"
+        android:text=""
+        android:textSize="45dp"
+        android:gravity="end"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

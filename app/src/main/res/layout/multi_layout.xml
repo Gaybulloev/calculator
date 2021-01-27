@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <LinearLayout
+       android:id="@+id/btn11"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">
+       <ImageButton
+           android:background="@color/appButton"
+           android:layout_height="60dp"
+           android:layout_width="60dp"
+           android:src="@drawable/ic_baseline_access_time_24"
+           android:padding="10dp" />
+
+       <ImageButton
+           android:background="@color/appButton"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/ic_baseline_straighten_24"
+           android:padding="10dp"
+           />
+
+       <ImageButton
+           android:background="@color/appButton"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/ic_outlined_"
+          android:padding="10dp"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/btn11"
+       android:gravity="end">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/appButton"
+            android:padding="10dp"
+            android:src="@drawable/ic_backspace" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
